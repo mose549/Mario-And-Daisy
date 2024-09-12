@@ -54,7 +54,7 @@ window.onload = function () {
 
     // Player
     playerImg = new Image();
-    playerImg.src = "https://imgs.search.brave.com/64SiLwVocD46p33brIbQvA9yGh4kYXaaKClnQCDAdxk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbmdm/cmUuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy9tYXJpby03NS0y/NTh4MzAwLnBuZw";
+    playerImg.src = "https://static.wikia.nocookie.net/pure-good-wiki/images/3/3e/MPSS_Mario.png/revision/latest?cb=20220321075648";
     playerImg.onload = function () {
         context.drawImage(playerImg, player.x, player.y, player.width, player.height);
     };
