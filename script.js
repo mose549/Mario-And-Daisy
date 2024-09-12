@@ -54,7 +54,7 @@ window.onload = function () {
 
     // Player
     playerImg = new Image();
-    playerImg.src = "https://static.wikia.nocookie.net/pure-good-wiki/images/3/3e/MPSS_Mario.png/revision/latest?cb=20220321075648";
+    playerImg.src = "https://supermariorun.com/assets/img/hero/hero_chara_mario_update_pc.png";
     playerImg.onload = function () {
         context.drawImage(playerImg, player.x, player.y, player.width, player.height);
     };
